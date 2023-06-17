@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD52C7A02A2022B900BDC742 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD52C79F2A2022B900BDC742 /* ImagePicker.swift */; };
 		BD94DE7F2A20190700E19821 /* cameraAccessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94DE7E2A20190700E19821 /* cameraAccessAppApp.swift */; };
 		BD94DE812A20190700E19821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94DE802A20190700E19821 /* ContentView.swift */; };
 		BD94DE832A20190F00E19821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD94DE822A20190F00E19821 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD52C79F2A2022B900BDC742 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		BD94DE7B2A20190700E19821 /* cameraAccessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraAccessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD94DE7E2A20190700E19821 /* cameraAccessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraAccessAppApp.swift; sourceTree = "<group>"; };
 		BD94DE802A20190700E19821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				BD94DE7E2A20190700E19821 /* cameraAccessAppApp.swift */,
 				BD94DE802A20190700E19821 /* ContentView.swift */,
+				BD52C79F2A2022B900BDC742 /* ImagePicker.swift */,
 				BD94DE822A20190F00E19821 /* Assets.xcassets */,
 				BD94DE842A20190F00E19821 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD52C7A02A2022B900BDC742 /* ImagePicker.swift in Sources */,
 				BD94DE812A20190700E19821 /* ContentView.swift in Sources */,
 				BD94DE7F2A20190700E19821 /* cameraAccessAppApp.swift in Sources */,
 			);
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = BY95FKSWDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = BY95FKSWDC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "we need to access your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
